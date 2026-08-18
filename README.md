@@ -41,7 +41,6 @@ igaming-ui-writing/
 ├── voice.md
 ├── glossary.md
 ├── numbers.md
-├── channel-site.md
 ├── channel-email.md
 ├── channel-notifications.md
 └── examples.md
