@@ -6,7 +6,7 @@
 
 ## 1. Скачай скилл
 
-1. Открой репозиторий на GitHub: `https://github.com/emak-bit/igaming-ui-writing`
+1. Открой репозиторий на GitHub: `https://github.com/emak-bit/KUtext`
 2. Нажми **Code → Download ZIP**
 3. Распакуй архив
 
@@ -15,7 +15,7 @@
 Если клонируешь через терминал:
 
 ```bash
-git clone https://github.com/emak-bit/igaming-ui-writing.git
+git clone https://github.com/emak-bit/KUtext.git
 ```
 
 ## 2. Положи папку в Cursor
