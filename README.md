@@ -1,21 +1,21 @@
 # Как установить скилл в Cursor
 
-Скилл **igaming-ui-writing** учит агента писать тексты сайта, интерфейса, писем и уведомлений в тоне Kukuruku.
+Скилл **KUtext** учит агента писать тексты сайта, интерфейса, писем и уведомлений в тоне Kukuruku.
 
 Нужен Cursor **2.4** или новее.
 
 ## 1. Скачай скилл
 
-1. Открой репозиторий на GitHub: `https://github.com/OWNER/REPO`
+1. Открой репозиторий на GitHub: `https://github.com/emak-bit/igaming-ui-writing`
 2. Нажми **Code → Download ZIP**
 3. Распакуй архив
 
-Внутри должна быть папка `igaming-ui-writing` с файлом `SKILL.md` и остальными файлами скилла.
+Внутри должна быть папка `KUtext` с файлом `SKILL.md` и остальными файлами скилла.
 
 Если клонируешь через терминал:
 
 ```bash
-git clone https://github.com/OWNER/REPO.git
+git clone https://github.com/emak-bit/igaming-ui-writing.git
 ```
 
 ## 2. Положи папку в Cursor
@@ -24,23 +24,24 @@ git clone https://github.com/OWNER/REPO.git
 
 **Для всех проектов** — скопируй папку сюда:
 
-- Mac: `~/.cursor/skills/igaming-ui-writing/`
-- Windows: `%USERPROFILE%\.cursor\skills\igaming-ui-writing\`
+- Mac: `~/.cursor/skills/KUtext/`
+- Windows: `%USERPROFILE%\.cursor\skills\KUtext\`
 
 **Только для текущего проекта** — скопируй папку сюда:
 
 ```text
-.cursor/skills/igaming-ui-writing/
+.cursor/skills/KUtext/
 ```
 
 Проверь структуру. `SKILL.md` должен лежать сразу внутри папки скилла, без лишней вложенности:
 
 ```text
-igaming-ui-writing/
+KUtext/
 ├── SKILL.md
 ├── voice.md
 ├── glossary.md
 ├── numbers.md
+├── locales.md
 ├── channel-email.md
 ├── channel-notifications.md
 └── examples.md
@@ -52,14 +53,14 @@ igaming-ui-writing/
 
 1. Открой **Customize** в боковой панели
 2. Перейди в **Skills**
-3. Найди `igaming-ui-writing`
+3. Найди `KUtext`
 
-Если скилла нет — чаще всего папка лежит на уровень глубже, чем нужно. Перенеси её так, чтобы `SKILL.md` был прямо внутри `igaming-ui-writing`.
+Если скилла нет — чаще всего папка лежит на уровень глубже, чем нужно. Перенеси её так, чтобы `SKILL.md` был прямо внутри `KUtext`.
 
 ## 4. Как пользоваться
 
 1. Открой **Agent** (не Ask)
-2. Вызови скилл явно: в чате набери `/` и выбери `igaming-ui-writing`
+2. Вызови скилл явно: в чате набери `/` и выбери `KUtext`
 3. Напиши задачу: канал, экран, что должно произойти, ограничения по длине
 
 Агент может подхватить скилл и сам, если в запросе речь про тексты сайта, кнопки, ошибки, онбординг, депозиты, выводы, бонусы, пуши или письма.
@@ -67,19 +68,16 @@ igaming-ui-writing/
 **Примеры запросов**
 
 ```text
-/igaming-ui-writing
+/KUtext
 Кнопка на экране вывода. Сейчас: «Осуществить вывод денежных средств». Сократи.
 ```
 
 ```text
-/igaming-ui-writing
+/KUtext
 Пуш: вывод 12 500 RUB прошёл. Нужна пара: пуш + инбокс.
 ```
 
 ```text
-/igaming-ui-writing
+/KUtext
 Тема и прехедер письма: первый депозит зачислен, 5 000 RUB.
 ```
-
-
-Если нужно, могу сразу положить это в `README.md` в папке скилла.
